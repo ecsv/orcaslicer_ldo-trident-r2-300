@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#F0BE02"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"Panchroma Matte Savannah Yellow"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Matte Savannah Yellow @Trident-R2",
+	"version": "0.0.0.0"
+}

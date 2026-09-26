@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#939598"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"Panchroma Matte Grey"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Matte Grey @Trident-R2",
+	"version": "0.0.0.0"
+}

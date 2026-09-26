@@ -1,0 +1,27 @@
+{
+	"default_filament_colour": [
+		"#CA1F7B"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.974814"
+	],
+	"filament_settings_id": [
+		"Panchroma Regular Magenta"
+	],
+	"filament_shrink": [
+		"99.77%"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Regular Magenta @Trident-R2",
+	"version": "0.0.0.0"
+}

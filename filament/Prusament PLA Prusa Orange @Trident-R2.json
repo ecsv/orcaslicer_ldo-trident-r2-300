@@ -1,0 +1,24 @@
+{
+	"default_filament_colour": [
+		"#ea5e1a"
+	],
+	"filament_cost": [
+		"30"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.986136"
+	],
+	"filament_settings_id": [
+		"Prusament PLA Prusa Orange"
+	],
+	"filament_vendor": [
+		"Prusament"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Prusament PLA Prusa Orange @Trident-R2",
+	"version": "0.0.0.0"
+}

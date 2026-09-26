@@ -1,0 +1,24 @@
+{
+	"default_filament_colour": [
+		"#F78E0E"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.973998"
+	],
+	"filament_settings_id": [
+		"Panchroma Matte Sunrise Orange"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Matte Sunrise Orange @Trident-R2",
+	"version": "0.0.0.0"
+}

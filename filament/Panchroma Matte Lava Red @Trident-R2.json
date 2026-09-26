@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#DE1619"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.978996"
+	],
+	"filament_settings_id": [
+		"Panchroma Matte Lava Red"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Matte Lava Red @Trident-R2",
+	"version": "0.0.0.0"
+}

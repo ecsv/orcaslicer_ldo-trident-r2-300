@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#9C2DA6"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.991848"
+	],
+	"filament_settings_id": [
+		"PolyLite PLA Temp Purple"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "PolyLite PLA Temp Purple @Trident-R2",
+	"version": "0.0.0.0"
+}

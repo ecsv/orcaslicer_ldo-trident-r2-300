@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#5AABB1"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"Panchroma Matte Arctic Teal"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Matte Arctic Teal @Trident-R2",
+	"version": "0.0.0.0"
+}

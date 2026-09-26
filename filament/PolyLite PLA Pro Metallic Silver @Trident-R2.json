@@ -1,0 +1,30 @@
+{
+	"default_filament_colour": [
+		"#7a838e"
+	],
+	"filament_cost": [
+		"35"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.95829"
+	],
+	"filament_settings_id": [
+		"PolyLite PLA Pro Metallic Silver"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "PolyLite PLA Pro Metallic Silver @Trident-R2",
+	"nozzle_temperature": [
+		"220"
+	],
+	"nozzle_temperature_range_high": [
+		"220"
+	],
+	"version": "0.0.0.0"
+}

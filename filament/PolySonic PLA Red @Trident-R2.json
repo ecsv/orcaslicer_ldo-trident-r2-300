@@ -1,0 +1,27 @@
+{
+	"default_filament_colour": [
+		"#e72f1d"
+	],
+	"filament_density": [
+		"1.23"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.949314"
+	],
+	"filament_max_volumetric_speed": [
+		"17"
+	],
+	"filament_settings_id": [
+		"PolySonic PLA Red"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "PolySonic PLA Red @Trident-R2",
+	"version": "0.0.0.0"
+}

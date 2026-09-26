@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#8A68B5"
+	],
+	"filament_density": [
+		"1.37"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"Panchroma Matte Lavender Purple"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @Trident-R2",
+	"name": "Panchroma Matte Lavender Purple @Trident-R2",
+	"version": "0.0.0.0"
+}

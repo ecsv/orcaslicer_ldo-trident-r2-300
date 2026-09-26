@@ -1,0 +1,16 @@
+{
+	"bottom_shell_layers": "7",
+	"from": "User",
+	"inherits": "0.20mm Standard @Trident-R2",
+	"layer_height": "0.08",
+	"name": "0.08mm Extra Fine @Trident-R2",
+	"print_extruder_id": [
+		"1"
+	],
+	"print_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"print_settings_id": "0.08mm Extra Fine @Trident-R2",
+	"top_shell_layers": "9",
+	"version": "2.4.0.2"
+}
