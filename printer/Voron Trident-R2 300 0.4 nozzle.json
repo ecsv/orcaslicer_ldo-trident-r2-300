@@ -10,7 +10,7 @@
 		"40x0"
 	],
 	"bed_mesh_max": "290,290",
-	"bed_mesh_min": "15,15",
+	"bed_mesh_min": "20,15",
 	"bed_mesh_probe_distance": "50,50",
 	"bed_temperature_formula": "by_highest_temp",
 	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0",
