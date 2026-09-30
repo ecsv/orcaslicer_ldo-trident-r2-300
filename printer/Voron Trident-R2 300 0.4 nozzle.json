@@ -16,7 +16,7 @@
 	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0",
 	"best_object_pos": "0.5,0.5",
 	"change_extrusion_role_gcode": "",
-	"change_filament_gcode": "; ESTIMATOR_ADD_TIME 50\nT[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
+	"change_filament_gcode": "; ESTIMATOR_ADD_TIME 60\nT[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
 	"cooling_tube_length": "0",
 	"cooling_tube_retraction": "0",
 	"default_bed_type": "Textured PEI Plate",
@@ -80,7 +80,7 @@
 		"0"
 	],
 	"machine_end_gcode": "END_PRINT",
-	"machine_load_filament_time": "20",
+	"machine_load_filament_time": "30",
 	"machine_max_acceleration_e": [
 		"5000",
 		"5000"
@@ -213,7 +213,7 @@
 	"printhost_authorization_type": "key",
 	"printhost_ssl_ignore_revoke": "0",
 	"printing_by_object_gcode": "",
-	"purge_in_prime_tower": "1",
+	"purge_in_prime_tower": "0",
 	"resonance_avoidance": "0",
 	"retract_before_wipe": [
 		"70%"
