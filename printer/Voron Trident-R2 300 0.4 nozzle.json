@@ -16,7 +16,7 @@
 	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0",
 	"best_object_pos": "0.5,0.5",
 	"change_extrusion_role_gcode": "",
-	"change_filament_gcode": "T[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
+	"change_filament_gcode": "; ESTIMATOR_ADD_TIME 50\nT[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
 	"cooling_tube_length": "0",
 	"cooling_tube_retraction": "0",
 	"default_bed_type": "Textured PEI Plate",
