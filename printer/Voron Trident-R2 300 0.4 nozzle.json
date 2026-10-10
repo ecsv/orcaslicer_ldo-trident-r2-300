@@ -16,7 +16,7 @@
 	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0",
 	"best_object_pos": "0.5,0.5",
 	"change_extrusion_role_gcode": "",
-	"change_filament_gcode": "; ESTIMATOR_ADD_TIME 60\nT[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
+	"change_filament_gcode": "; ESTIMATOR_ADD_TIME 80\nT[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
 	"cooling_tube_length": "0",
 	"cooling_tube_retraction": "0",
 	"default_bed_type": "Textured PEI Plate",
@@ -80,7 +80,7 @@
 		"0"
 	],
 	"machine_end_gcode": "END_PRINT",
-	"machine_load_filament_time": "30",
+	"machine_load_filament_time": "50",
 	"machine_max_acceleration_e": [
 		"5000",
 		"5000"
@@ -153,7 +153,7 @@
 		"0"
 	],
 	"machine_pause_gcode": "M600",
-	"machine_start_gcode": "; M190 S[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\nM104 S0 ; Stops OrcaSlicer from sending temperature waits separately\nM140 S0 ; Stops OrcaSlicer from sending temperature waits separately\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] TOOL={initial_tool}\n",
+	"machine_start_gcode": "; M190 S[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\nM104 S0 ; Stops OrcaSlicer from sending temperature waits separately\nM140 S0 ; Stops OrcaSlicer from sending temperature waits separately\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\n",
 	"machine_tool_change_time": "0",
 	"machine_unload_filament_time": "30",
 	"manual_filament_change": "0",
