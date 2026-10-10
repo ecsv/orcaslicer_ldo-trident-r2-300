@@ -153,7 +153,7 @@
 		"0"
 	],
 	"machine_pause_gcode": "M600",
-	"machine_start_gcode": "; M190 S[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\nM104 S0 ; Stops OrcaSlicer from sending temperature waits separately\nM140 S0 ; Stops OrcaSlicer from sending temperature waits separately\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\n",
+	"machine_start_gcode": "; M190 S[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\nM104 S0 ; Stops OrcaSlicer from sending temperature waits separately\nM140 S0 ; Stops OrcaSlicer from sending temperature waits separately\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] {if size(filament_diameter) > 1}TOOL={initial_tool}{endif}\n",
 	"machine_tool_change_time": "0",
 	"machine_unload_filament_time": "30",
 	"manual_filament_change": "0",
