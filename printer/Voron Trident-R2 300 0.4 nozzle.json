@@ -9,14 +9,26 @@
 		"0x60",
 		"40x0"
 	],
+	"bed_exclude_volume_mode": "shared",
+	"bed_exclude_volumes": "",
 	"bed_mesh_max": "290,290",
 	"bed_mesh_min": "20,15",
 	"bed_mesh_probe_distance": "50,50",
 	"bed_temperature_formula": "by_highest_temp",
 	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0",
+	"belt_frame_tilt_angle": "45",
+	"belt_frame_tilt_decouple": "0",
+	"belt_printer": "0",
+	"belt_printer_infinite_y": "1",
+	"belt_slice_rotation": "x",
+	"belt_slice_rotation_angle": "45",
+	"belt_support_floor_offset": "0",
 	"best_object_pos": "0.5,0.5",
+	"build_plate_tilt_x": "0",
+	"build_plate_tilt_y": "0",
 	"change_extrusion_role_gcode": "",
 	"change_filament_gcode": "; ESTIMATOR_ADD_TIME 80\nT[next_extruder] PURGE_LENGTH=[flush_length]\n; FLUSH_START\n; EXTERNAL_PURGE {flush_length}\n; FLUSH_END",
+	"cooling_filter_enabled": "0",
 	"cooling_tube_length": "0",
 	"cooling_tube_retraction": "0",
 	"default_bed_type": "Textured PEI Plate",
@@ -27,20 +39,32 @@
 		"Standard"
 	],
 	"default_print_profile": "0.20mm Standard @Trident-R2",
+	"deretract_speed_extruder_change": [
+		"0"
+	],
 	"deretraction_speed": [
 		"25"
 	],
 	"disable_m73": "0",
 	"emit_machine_limits_to_gcode": "1",
+	"enable_belt_purge_tower": "0",
 	"enable_filament_ramming": "0",
 	"enable_long_retraction_when_cut": "0",
 	"enable_power_loss_recovery": "printer_configuration",
+	"enable_pre_heating": "0",
 	"extra_loading_move": "0",
+	"extruder_bed_exclude_volumes": [
+		""
+	],
+	"extruder_clearance_dist_to_rod": "40",
 	"extruder_clearance_height_to_lid": "140",
 	"extruder_clearance_height_to_rod": "36",
 	"extruder_clearance_radius": "65",
 	"extruder_colour": [
 		"#FCE94F"
+	],
+	"extruder_max_nozzle_count": [
+		"1"
 	],
 	"extruder_offset": [
 		"0x0"
@@ -55,19 +79,43 @@
 	"extruder_variant_list": [
 		"Direct Drive Standard"
 	],
+	"fan_direction": "undefine",
 	"fan_kickstart": "0",
 	"fan_speedup_overhangs": "1",
 	"fan_speedup_time": "0",
+	"farthest_point_timelapse": "0",
 	"file_start_gcode": "",
 	"flashforge_serial_number": "",
 	"from": "User",
 	"gcode_flavor": "klipper",
+	"gcode_remap_x": "pos_x",
+	"gcode_remap_y": "pos_y",
+	"gcode_remap_z": "pos_z",
+	"gcode_skip_config_block": "0",
 	"grab_length": [
 		"0"
 	],
+	"group_algo_with_time": "0",
 	"head_wrap_detect_zone": [],
 	"high_current_on_filament_swap": "0",
 	"host_type": "octoprint",
+	"hotend_cooling_rate": [
+		"2"
+	],
+	"hotend_heating_rate": [
+		"2"
+	],
+	"imex_carriage_margin": "0",
+	"imex_firmware_managed_zones": "0",
+	"imex_gantry_count": "1",
+	"imex_mode_active_tools": [],
+	"imex_mode_gcodes": [],
+	"imex_mode_names": [],
+	"imex_nozzle_clearance_x": "30",
+	"imex_nozzle_clearance_y": "30",
+	"imex_tool_layout": "front-left",
+	"imex_tools_per_gantry": "2",
+	"imex_viz_theme": "standard",
 	"inherits": "",
 	"input_shaping_damp_x": "0.1",
 	"input_shaping_damp_y": "0.1",
@@ -75,11 +123,14 @@
 	"input_shaping_freq_x": "0",
 	"input_shaping_freq_y": "0",
 	"input_shaping_type": "Default",
+	"is_imex": "0",
 	"layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
 	"long_retractions_when_cut": [
 		"0"
 	],
+	"machine_bed_mass_Y": "0",
 	"machine_end_gcode": "END_PRINT",
+	"machine_hotend_change_time": "0",
 	"machine_load_filament_time": "50",
 	"machine_max_acceleration_e": [
 		"5000",
@@ -109,6 +160,7 @@
 		"500",
 		"200"
 	],
+	"machine_max_force_Y": "0",
 	"machine_max_jerk_e": [
 		"2.5",
 		"2.5"
@@ -126,8 +178,10 @@
 		"0.4"
 	],
 	"machine_max_junction_deviation": [
+		"0.01",
 		"0.01"
 	],
+	"machine_max_printed_mass": "0",
 	"machine_max_speed_e": [
 		"25",
 		"25"
@@ -153,6 +207,7 @@
 		"0"
 	],
 	"machine_pause_gcode": "M600",
+	"machine_prepare_compensation_time": "260",
 	"machine_start_gcode": "; M190 S[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\nM104 S0 ; Stops OrcaSlicer from sending temperature waits separately\nM140 S0 ; Stops OrcaSlicer from sending temperature waits separately\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] {if size(filament_diameter) > 1}TOOL={initial_tool}{endif}\n",
 	"machine_tool_change_time": "0",
 	"machine_unload_filament_time": "30",
@@ -206,6 +261,7 @@
 	],
 	"printer_model": "Voron Trident 300",
 	"printer_notes": "",
+	"printer_plugin_config_overrides": "",
 	"printer_settings_id": "Voron Trident-R2 300 0.4 nozzle",
 	"printer_structure": "undefine",
 	"printer_technology": "FFF",
@@ -215,6 +271,9 @@
 	"printing_by_object_gcode": "",
 	"purge_in_prime_tower": "0",
 	"resonance_avoidance": "0",
+	"retract_after_wipe": [
+		"0%"
+	],
 	"retract_before_wipe": [
 		"70%"
 	],
@@ -252,10 +311,11 @@
 		"35"
 	],
 	"scan_first_layer": "0",
-	"silent_mode": "0",
 	"single_extruder_multi_material": "1",
 	"support_air_filtration": "1",
 	"support_chamber_temp_control": "1",
+	"support_cooling_filter": "0",
+	"support_fast_purge_mode": "0",
 	"support_multi_bed_types": "0",
 	"support_object_skip_flush": "0",
 	"support_parallel_printheads": "0",
@@ -273,6 +333,7 @@
 	"use_firmware_retraction": "0",
 	"use_relative_e_distances": "1",
 	"version": "2.4.0.2",
+	"wait_for_temp_on_wipe_tower": "0",
 	"wipe": [
 		"1"
 	],
